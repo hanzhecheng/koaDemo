@@ -1,0 +1,18 @@
+{
+  "name": "koa",
+  "version": "1.0.0",
+  "description": "koa demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hanzc",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^0.2.14",
+    "koa-bodyparser": "^3.2.0",
+    "koa-log4": "^2.2.1",
+    "koa2-swagger-ui": "^2.5.14",
+    "mysql": "^2.14.1"
+  }
+}
