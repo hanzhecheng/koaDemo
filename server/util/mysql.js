@@ -1,9 +1,9 @@
 const mysql = require("mysql");
 const pool = mysql.createPool({
-    host: '192.168.6.223',
-    user: 'SYSTEM',
-    password: "alayadata",
-    database: "ADPUB"
+    host: '',
+    user: '',
+    password: "",
+    database: ""
 })
 
 let query = function (sql, values) {
@@ -24,4 +24,4 @@ let query = function (sql, values) {
         })
     })
 }
-module.exports=query;
+module.exports = query;
