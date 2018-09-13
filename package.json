@@ -14,5 +14,8 @@
     "koa-log4": "^2.2.1",
     "koa2-swagger-ui": "^2.5.14",
     "mysql": "^2.14.1"
+  },
+  "devDependencies": {
+    "koa-cors": "^0.0.16"
   }
 }
