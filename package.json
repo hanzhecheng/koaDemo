@@ -4,16 +4,21 @@
   "description": "koa demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
   },
   "author": "hanzc",
   "license": "ISC",
   "dependencies": {
-    "koa":"^2.5.1",
+    "axios": "^0.18.0",
     "busboy": "^0.2.14",
+    "koa": "^2.5.1",
     "koa-bodyparser": "^3.2.0",
     "koa-log4": "^2.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
     "koa2-swagger-ui": "^2.5.14",
-    "mysql": "^2.14.1"
+    "mysql": "^2.14.1",
+    "oracledb": "^2.3.0"
   }
 }
