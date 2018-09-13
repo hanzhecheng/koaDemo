@@ -1,4 +1,4 @@
-const query = require("../util/mysql");
+const query = require("../utils/mysql");
 class User {
     constructor() {
 
@@ -11,9 +11,9 @@ class User {
         })
         ctx.body = result;
     }
-    static async GetUserByID(ctx){
+    static async GetUserByID(ctx) {
         console.log(ctx.query);
-        ctx.body="测试"+ctx.query;
+        ctx.body = "测试" + ctx.query;
     }
 }
-module.exports=User;
+module.exports = User;
