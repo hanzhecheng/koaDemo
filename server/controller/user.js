@@ -4,6 +4,7 @@ class User {
     constructor() {
 
     }
+    
     static async GetUserInfo(ctx) {
         let result = await query('select * from t_acl_user').then(res => {
             return res;
