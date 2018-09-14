@@ -9,13 +9,31 @@
   "author": "hanzc",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "busboy": "^0.2.14",
+    "ee-first": "^1.1.1",
+    "koa": "^2.5.3",
     "koa-bodyparser": "^3.2.0",
-    "koa-log4": "^2.2.1",
+    "koa-cors": "^0.0.16",
+    "koa-log4": "^2.3.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
     "koa2-swagger-ui": "^2.5.14",
-    "mysql": "^2.14.1"
+    "mysql": "^2.16.0",
+    "oracledb": "^2.3.0"
   },
   "devDependencies": {
     "koa-cors": "^0.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hanzhecheng:4683689han@github.com/hanzhecheng/koaDemo.git"
+  },
+  "keywords": [
+    "koademo"
+  ],
+  "bugs": {
+    "url": "https://github.com/hanzhecheng/koaDemo/issues"
+  },
+  "homepage": "https://github.com/hanzhecheng/koaDemo#readme"
 }
