@@ -1,8 +1,8 @@
 var oracledb = require('oracledb');
 var config = {
-  user: "ADPUB",
-  password: "alayadata",
-  connectString: `DEV`
+  user: "",
+  password: "",
+  connectString: ``
 }
 
 function query(sql, params) {
@@ -12,7 +12,6 @@ function query(sql, params) {
         if (err) {
           return reject(err.message);
         }
-        console.log('Connection was successful!');
         connection.execute(sql, (err, result) => {
           if (err) {
             return reject(err.message);
@@ -23,7 +22,6 @@ function query(sql, params) {
               if (err) {
                 return reject(err.message);
               }
-              console.log('Connection close was successful!');
             });
         })
       });
